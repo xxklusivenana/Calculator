@@ -12,10 +12,11 @@ def click(item) :
 def doubleClick(item1, item2) :
     windowInput.set(item1)
     windowInput.set(item2)
+    #create a flag, if the flag is hit, then a double click has occurred
+    #then display the second item
 
 def clear() :
     #global expression
-    #expression = ""
     windowInput.set("")
 
 def equal() :

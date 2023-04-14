@@ -82,7 +82,7 @@ sixButton.grid(row = 4, column = 2, sticky = "w")
 pointButton = tk.Button(frame, text = ".", font = ("Georgia", 14), width = 12, height = 6, command = lambda : buttonBindings.click("."))
 pointButton.grid(row = 4, column = 3, sticky = "w")
 
-equalButton = tk.Button(frame, text = "=", font = ("Georgia", 14), width = 12, height = 6, command = lambda : buttonBindings.click("="))
+equalButton = tk.Button(frame, text = "=", font = ("Georgia", 14), width = 12, height = 6, command = lambda : buttonBindings.equal())
 equalButton.grid(row = 4, column = 4, sticky = "w")
 #bottom row
 oneButton = tk.Button(frame, text = "1", font = ("Georgia", 14), width = 12, height = 6, command = lambda : buttonBindings.click("1"))
